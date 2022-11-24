@@ -73,7 +73,7 @@ client.on('message', message => {
 
     //start
     Virdina.set(message);
-    Virdina.addPrefix('/');
+    Virdina.addPrefix('.');
 
     //  /brainly <pertanyaan> -<jumlah>
     Virdina.createCommand('brainly', function(msg, res) {
